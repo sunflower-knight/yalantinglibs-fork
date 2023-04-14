@@ -41,7 +41,7 @@ jobs:
         run: yarn install
         working-directory: ${{github.workspace}}
       - name: Build Website
-        run: bash gen_doc.sh ${{github.workspace}}
+        run: bash generate.sh ${{github.workspace}}
         working-directory: ${{github.workspace}}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
