@@ -1,25 +1,25 @@
 ---
 layout: home
 
-title: yalantinglibs
+title: 雅兰亭库
 titleTemplate: A collection of C++20 libraries, include async_simple, coro_rpc and struct_pack.
 
 hero:
-  name: yalantinglibs
+  name: 雅兰亭库
   text: A collection of C++20 libraries.
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/what-is-yalantinglibs
+      text: 快速开始
+      link: /zh/guide/what_is_yalantinglibs
     - theme: alt
-      text: View on GitHub
+      text: 开源仓库
       link: https://github.com/alibaba/yalantinglibs.git
 
 features:
   - title: struct_pack
-    details: Only one line code to finish serialization and deserialization, 10-50x faster than protobuf.
+    details: 只需要一行代码完成序列化和反序列化, 比 protobuf 快 10-50 倍.
   - title: coro_rpc
     details: Very easy-to-use, coroutine-based, high performance rpc framework with C++20, more than 2000w qps in echo scene.
   - title: struct_json
-    details: Reflection-based json lib, very easy to do struct to json and json to struct.
+    details: 基于反射的 json 库, 结构体和 json 的相互转换.
 ---
